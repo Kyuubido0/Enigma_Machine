@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4873AAB9-3946-4EE7-811B-CCF4D857425B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Enigma___VB_Version.My.MyApplication</StartupObject>
+    <RootNamespace>Enigma___VB_Version</RootNamespace>
+    <AssemblyName>Enigma - VB Version</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Enigma - VB Version.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Enigma - VB Version.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Text</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Modules\CodeFrom1000.vb" />
+    <Compile Include="Data\Modules\Configuration.vb" />
+    <Compile Include="Data\Forms\Decode.Designer.vb">
+      <DependentUpon>Decode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Forms\Decode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data\Modules\Encode.vb" />
+    <Compile Include="Data\Forms\Multilevel_Encryption.Designer.vb">
+      <DependentUpon>Multilevel_Encryption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Forms\Multilevel_Encryption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data\Modules\TextManipulation.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Data\Modules\Rotors.vb" />
+    <Compile Include="Data\Forms\VisualUI.Designer.vb">
+      <DependentUpon>VisualUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Forms\VisualUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\Forms\Decode.resx">
+      <DependentUpon>Decode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Forms\Multilevel_Encryption.resx">
+      <DependentUpon>Multilevel_Encryption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Forms\VisualUI.resx">
+      <DependentUpon>VisualUI.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Resources\Pictures\Keyboard Unpressed\Blue.jpg" />
+    <None Include="Data\Resources\Pictures\Lightboard\A_Lightboard.png" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\Enigma.datasource" />
+    <None Include="My Project\DataSources\Enigma___VB_Version.My.MyApplication.datasource" />
+    <None Include="My Project\DataSources\Enigma___VB_Version.My.MySettings.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Resources\Icons\Decode.png" />
+    <Content Include="Data\Resources\Icons\Exit.png" />
+    <Content Include="Data\Resources\Icons\Export.png" />
+    <Content Include="Data\Resources\Icons\file88.png" />
+    <Content Include="Data\Resources\Icons\Help.png" />
+    <Content Include="Data\Resources\Icons\Import.png" />
+    <Content Include="Data\Resources\Icons\Multilevel.png" />
+    <Content Include="Data\Resources\Icons\Online.png" />
+    <Content Include="Data\Resources\Icons\Reset.png" />
+    <None Include="Data\Resources\Icons\SmallX.png" />
+    <Content Include="Data\Resources\Icons\Source.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\E_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\F_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\G_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\H_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\I_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\J_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\K_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\L_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\M_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\N_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\O_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\P_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\Q_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\R_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\S_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\T_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\U_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\V_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\W_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\X_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\Y_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\Z_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\A_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\B_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\C_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Keyboard Pressed\D_Pressed.png" />
+    <None Include="Data\Resources\Pictures\Enigma_Background.jpg" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\A_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\B_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\C_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\D_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\E_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\F_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\G_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\H_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\I_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\J_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\K_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\L_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\M_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\N_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\O_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\P_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\Q_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\R_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\S_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\T_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\U_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\V_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\W_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\X_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\Y_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Keyboard Unpressed\Z_Unpressed.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\B_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\C_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\D_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\E_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\F_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\G_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\H_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\I_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\J_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\K_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\L_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\M_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\N_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\O_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\P_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\Q_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\R_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\S_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\T_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\U_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\V_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\W_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\X_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\Y_Lightboard.png" />
+    <Content Include="Data\Resources\Pictures\Lightboard\Z_Lightboard.png" />
+    <Content Include="Data\Resources\Sounds\Keystroke1.wav" />
+    <Content Include="Data\Resources\Sounds\Keystroke2.wav" />
+    <Content Include="Data\Resources\Sounds\Keystroke3.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

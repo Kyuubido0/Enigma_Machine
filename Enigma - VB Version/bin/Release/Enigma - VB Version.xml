@@ -1,0 +1,400 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Enigma-VBVersion
+</name>
+</assembly>
+<members>
+<member name="P:Enigma___VB_Version.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources._Exit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.A_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.A_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.A_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.B_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.B_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.B_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Blue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.C_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.C_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.C_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.D_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.D_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.D_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Decode">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.E_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.E_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.E_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Enigma_Background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Export">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.F_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.F_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.F_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.file88">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.G_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.G_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.G_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.H_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.H_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.H_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Help">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.I_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.I_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.I_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Import">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.J_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.J_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.J_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.K_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.K_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.K_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Keystroke1">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Keystroke2">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Keystroke3">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.L_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.L_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.L_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.M_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.M_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.M_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Multilevel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.N_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.N_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.N_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.O_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.O_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.O_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Online">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.P_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.P_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.P_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Q_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Q_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Q_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.R_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.R_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.R_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Reset">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.S_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.S_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.S_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.SmallX">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Source">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.T_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.T_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.T_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.U_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.U_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.U_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.V_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.V_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.V_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.W_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.W_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.W_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.X_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.X_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.X_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Y_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Y_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Y_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Z_Lightboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Z_Pressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Enigma___VB_Version.My.Resources.Resources.Z_Unpressed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Enigma___VB_Version.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

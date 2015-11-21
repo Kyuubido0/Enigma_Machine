@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Decode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\Decode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\Export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\file88.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\Help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Import" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\Import.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Keystroke1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Sounds\Keystroke1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Keystroke2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Sounds\Keystroke2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Keystroke3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Sounds\Keystroke3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Multilevel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\Multilevel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Online" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\Online.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\Reset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Source" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\Source.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\Exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\A_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\Blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\B_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\C_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\D_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\E_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\F_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\G_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\H_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\I_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\J_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\K_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\L_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\M_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\N_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\O_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\P_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Q_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\Q_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\R_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmallX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Icons\SmallX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\S_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\T_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\U_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\V_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\W_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\X_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Y_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\Y_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z_Unpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Unpressed\Z_Unpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\A_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\B_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\C_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\D_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\E_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\F_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\G_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\H_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\I_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\J_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\K_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\L_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\M_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\N_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\O_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\P_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Q_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\Q_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\R_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\S_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\T_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\U_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\V_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\W_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\X_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Y_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\Y_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Keyboard Pressed\Z_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\A_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\B_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\C_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\D_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\E_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\F_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\G_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\H_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\I_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\J_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\K_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\L_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\M_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\N_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\O_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\P_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Q_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\Q_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\R_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\S_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\T_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\U_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\V_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\W_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\X_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Y_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\Y_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z_Lightboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Lightboard\Z_Lightboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enigma_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\Resources\Pictures\Enigma_Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
